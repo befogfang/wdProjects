@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name Availability Checker</title>
+</head>
+<body>
+    <input type="text" id="username" placeholder="Enter Username">
+    <button onclick="checkAvailability()">Check Availability</button>
+    <div id="results"></div>
+    <script>
+        async function checkAvailability() {
+            const username = document.getElementById('username').value;
+            const response = await fetch(`/api/check?username=${username}`);
+            const result = await response.json();
+            document.getElementById('results').innerHTML = JSON.stringify(result);
+        }
+    </script>
+</body>
+</html>

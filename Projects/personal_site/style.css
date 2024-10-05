@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+/* .Hero {
+    display: ;    
+    background-color: aqua;
+} */
+
+body{
+    display: grid;
+    grid-template:
+
+    'bl bl bl'
+    'bl c1 bl'
+    'bl bl bl'
+
+    ;
+}

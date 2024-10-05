@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: bisque;
+    margin: 10% 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.floatbutton{
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+
+    position: sticky;
+    
+}
+
+.popup{
+    z-index: 1;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible{
+    visibility: hidden;
+}

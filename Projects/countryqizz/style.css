@@ -1,0 +1,39 @@
+body{ 
+    background-color: blueviolet;
+}
+/* *{} */
+
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    height: 200px;
+}
+
+.flex{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.guess-section div{
+    background-color: burlywood;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid white ;
+
+}
+
+.final-msg{
+    font-size: xx-large;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-ctn{
+    width: 80;
+    height: 80%;
+
+    margin: 5vh 10vw;
+    border: 1px solid black;
+}

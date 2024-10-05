@@ -1,0 +1,36 @@
+*{
+    border: 1px solid;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nameHeading{
+    
+    width: 100vw;
+    height: 10%;
+    font-size: inherit;
+}
+.computerSide{
+    visibility: hidden;
+    height: 10%;
+
+}
+.userChoice{
+    height: 10%;
+}
+.chooseFrom{
+/* display: flex; */
+justify-content: space-around;
+}
+.box{
+height: 100%;
+width: 30%;
+background-color: blueviolet;
+}
+.footer{
+    height: 10%;
+    background-color: aqua;
+}

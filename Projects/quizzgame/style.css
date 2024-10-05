@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    /* text-decoration: none; */
+    list-style-type: none;
+    /* list-style-image: ; */
+    display: flex;
+    /* gap: 10px; */
+}
+
+.header li{
+    align-content: space-around;
+    text-decoration: underline blue solid;
+}
